@@ -16,7 +16,7 @@ public class Main {
     public static WebDriverWait wait;
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         System.setProperty("webdriver.gecko.driver", "drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 40);
